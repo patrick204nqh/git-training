@@ -1,3 +1,3 @@
-module.exports = (name) => {
-  console.log(`hi, ${name}`)
+module.exports = (dev) => {
+  console.log(`hi, ${dev.name}`)
 }
