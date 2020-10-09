@@ -1,4 +1,5 @@
 const hi = require('./robert')
+const dev = require('./db.json')
 
 console.log("hello, world")
-hi("patrick")
+dev.map(d => hi(d))
